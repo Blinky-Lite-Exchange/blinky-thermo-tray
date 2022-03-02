@@ -216,6 +216,24 @@
         }
     },
     {
+<<<<<<< HEAD
+=======
+        "id": "21ff842d.62f36c",
+        "type": "serial-port",
+        "serialport": "/dev/rfcomm5",
+        "serialbaud": "57600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "newline": "64",
+        "bin": "bin",
+        "out": "count",
+        "addchar": "",
+        "responsetimeout": "1000"
+    },
+    {
+>>>>>>> 1769258bfd89cf6f0b47b95241b7ebe3704f33c7
         "id": "79250bf3.365cc4",
         "type": "mqtt-broker",
         "name": "MQTT Broker",
