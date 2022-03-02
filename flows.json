@@ -216,21 +216,6 @@
         }
     },
     {
-        "id": "21ff842d.62f36c",
-        "type": "serial-port",
-        "serialport": "/dev/rfcomm0",
-        "serialbaud": "57600",
-        "databits": "8",
-        "parity": "none",
-        "stopbits": "1",
-        "waitfor": "",
-        "newline": "64",
-        "bin": "bin",
-        "out": "count",
-        "addchar": "",
-        "responsetimeout": "1000"
-    },
-    {
         "id": "79250bf3.365cc4",
         "type": "mqtt-broker",
         "name": "MQTT Broker",
@@ -264,43 +249,6 @@
         "wholemsg": "false"
     },
     {
-        "id": "ea743ee6.d8b55",
-        "type": "serial in",
-        "z": "5f562f66.a301e",
-        "name": "",
-        "serial": "21ff842d.62f36c",
-        "x": 90,
-        "y": 400,
-        "wires": [
-            [
-                "d5761f6c.c46e6"
-            ]
-        ]
-    },
-    {
-        "id": "93049b70.2dc5c8",
-        "type": "mqtt out",
-        "z": "5f562f66.a301e",
-        "name": "Publish Readings",
-        "topic": "",
-        "qos": "0",
-        "retain": "false",
-        "broker": "79250bf3.365cc4",
-        "x": 1290,
-        "y": 400,
-        "wires": []
-    },
-    {
-        "id": "3f988ea4.7ee392",
-        "type": "serial out",
-        "z": "5f562f66.a301e",
-        "name": "",
-        "serial": "21ff842d.62f36c",
-        "x": 760,
-        "y": 460,
-        "wires": []
-    },
-    {
         "id": "f3f3f15.081c31",
         "type": "function",
         "z": "5f562f66.a301e",
@@ -313,9 +261,7 @@
         "x": 540,
         "y": 460,
         "wires": [
-            [
-                "3f988ea4.7ee392"
-            ]
+            []
         ]
     },
     {
@@ -518,23 +464,6 @@
         "wires": [
             [
                 "b1885d32.8d9cc"
-            ]
-        ]
-    },
-    {
-        "id": "5023092b.a0fe38",
-        "type": "mqtt in",
-        "z": "5f562f66.a301e",
-        "name": "Subscribe DeviceA",
-        "topic": "$(MQTTDEVICEA)",
-        "qos": "0",
-        "datatype": "auto",
-        "broker": "79250bf3.365cc4",
-        "x": 110,
-        "y": 140,
-        "wires": [
-            [
-                "257906ae.f6991a"
             ]
         ]
     },
@@ -928,7 +857,6 @@
         "y": 400,
         "wires": [
             [
-                "93049b70.2dc5c8",
                 "a3ff8e5.b79de7"
             ]
         ]
