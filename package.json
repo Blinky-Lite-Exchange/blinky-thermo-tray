@@ -1,5 +1,5 @@
 {
-  "name": "blinky-bus-tray",
+  "name": "blinky-thermo-tray",
   "version": "1.0.0",
   "description": "",
   "main": "node_modules/node-red/red.js -s ./settings.js -u ./",
@@ -22,6 +22,6 @@
   "dependencies": {
     "node-red": "^2.2.2",
     "node-red-dashboard": "^3.1.6",
-    "node-red-node-serialport": "~0.15.0"
+    "node-red-node-serialport": "~1.0.1"
   }
 }

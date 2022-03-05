@@ -2,7 +2,7 @@
   "type": "blinky-thermo",
   "name": "01",
   "arcPeriod": 60000,
-  "timeStamp": 1646058650746,
+  "timeStamp": 1646455083719,
   "linkQuality": {
     "action": "reading",
     "type": "scalar",
@@ -26,7 +26,7 @@
   "signalLevel": {
     "action": "reading",
     "type": "scalar",
-    "value": -29,
+    "value": -35,
     "unit": "dBm",
     "alarm": {
       "value": 0,
@@ -46,7 +46,7 @@
   "mAX31855_A": {
     "action": "reading",
     "type": "scalar",
-    "value": 0,
+    "value": 22.2,
     "unit": "C",
     "alarm": {
       "value": 0,
@@ -66,7 +66,7 @@
   "mAX31855_B": {
     "action": "reading",
     "type": "scalar",
-    "value": 0,
+    "value": 23.5,
     "unit": "C",
     "alarm": {
       "value": 0,
@@ -86,7 +86,7 @@
   "dS18B20_A": {
     "action": "reading",
     "type": "scalar",
-    "value": 0,
+    "value": 22,
     "unit": "C",
     "alarm": {
       "value": 0,
@@ -106,7 +106,7 @@
   "dS18B20_B": {
     "action": "reading",
     "type": "scalar",
-    "value": 0,
+    "value": 20.4,
     "unit": "C",
     "alarm": {
       "value": 0,
